@@ -9,7 +9,7 @@ POST http://localhost:3000/notes
 Content-Type: application/json
 
 {
-  "title": "Test Note",
+  "title": "Item Note",
   "description": "Just for Testing"
 }
 
@@ -20,10 +20,9 @@ GET http://localhost:3000/notes/62b42dd81e27b82898c57697
 DELETE http://localhost:3000/notes/62b41b5865cd503e5072cf21
 
 ###
-PATCH http://localhost:3000/notes/62b43e8b01edab96db5b6e49
+PATCH http://localhost:3000/notes/62b50196581108a44a348664
 Content-Type: application/json
 
 {
-  "title": "New Data",
-  "description": "Description"
+  "title": "Data Item"
 }

@@ -56,23 +56,6 @@ router.patch('/:id', getNote, async (req, res) => {
   } catch (e) {
     res.status(400).json({ status: false, message: e.message })
   }
-  // try {
-  //   const note = await Notes.findById(req.params.id)
-
-  //   if (req.body.title != null) {
-  //     note.title = req.body.title
-  //   }
-  //   if (req.body.description != null) {
-  //     note.description = req.body.description
-  //   }
-
-  //   const updatedNote = await note.save()
-
-  //   res.status(200).json({ success: true, data: updatedNote })
-  // } catch (e) {
-  //   res.status(400).json({ success: false, message: e.message })
-  // }
-
 })
 
 //delete one
